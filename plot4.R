@@ -20,7 +20,7 @@ png(filename="plot4.png", width = 480, height = 480)
 
 par(mfrow = c(2,2))
 
-# Plot 1 Voltage ~ datetime
+# Plot 1 Global active power ~ datetime
 
 plot(DateTime, SubData$Global_active_power, type = "l",
      ylab = "Global Active Power",
@@ -34,7 +34,7 @@ with(SubData, {
              xlab = "datetime")
 })
 
-# Plot 3 Voltage ~ datetime
+# Plot 3 Sub metering 1,2 and 3 ~ datetime
 
 with(SubData, {
         plot(DateTime, SubData$Sub_metering_1, type = "l",
@@ -46,7 +46,7 @@ with(SubData, {
                 col = c("black", "red", "blue"), lty = 1)
 })
 
-# Plot 4 Voltage ~ datetime
+# Plot 4 Global reactive power ~ datetime
 
 with(SubData, {
         plot(DateTime, SubData$Global_reactive_power, type = "l",
