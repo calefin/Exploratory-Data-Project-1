@@ -90,3 +90,8 @@ date. There should be four PNG files and four R code files.
 
 
 The four plots that you will need to construct are shown below. 
+
+## Files
+
+* `plots images.md` contain the images of all plots
+* `plot1.R` to `plot4.R` contain the scripts to create the plots in R.
