@@ -1,1 +1,27 @@
+# Plot 1
+
 ![Bilby Stampede](https://cloud.githubusercontent.com/assets/8772141/6094486/c1a0079e-af12-11e4-9487-076e4862c0a3.png)
+
+# Plot 2
+
+
+# Plot 3
+
+
+
+# Plot 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
